@@ -1,0 +1,80 @@
+/*ul.grid {
+    list-style: none;
+    margin: 10px auto;
+    padding: 0;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+ul.grid li {
+    width: 160px;
+    height: 260px;
+    padding: 14px;
+    background-color: #f4f4f4;
+    border: 1px solid #d7d7d7;
+    color: #525252;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+    overflow: hidden;
+}
+ul.grid li img {
+    max-width:100%;
+    height:auto;
+}
+ul.grid li code {
+    background-color: #D8F6C0;
+    padding: 4px;
+    border: 1px dashed #9CCA77;
+    border-radius: 4px;
+}
+*/
+
+
+ul.grid {
+	list-style: none;
+    margin: 100px auto;
+    padding: 0;
+    min-width: 1020px;
+    max-width: 1280px;
+    display: table;
+}
+
+ul.grid li {
+	display: block;
+	float: left;
+	width: 130px;
+    height: 260px;
+    padding: 14px;
+    margin: 4px;
+    background-color: #f4f4f4;
+    border: 1px solid #d7d7d7;
+    color: #525252;
+    text-align: center;
+    overflow: hidden;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+	opacity: 1;
+}
+
+.grid li a,
+.grid li img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+}
+
+.twoBytwo{
+	width: 298px !important;
+}
+
+.threeBytwo{
+	width: 465px !important;
+}
+
+@media screen and (min-width: 1445px) {
+
+}
+
